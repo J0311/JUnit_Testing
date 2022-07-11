@@ -28,5 +28,11 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(4, calc.add(2,2));
 	}
+	
+	@Test
+	public void threePlusSevenShouldEqualTen() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(10, calc.add(3,7));
+	}
 
 }
