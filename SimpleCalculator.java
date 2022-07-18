@@ -4,8 +4,8 @@ package com.company;
 
 	public class SimpleCalculator {
 
-		public int add(int numberA, int numberB) {
-			return numberA - numberB;
+		public int add(int numA, int numB) {
+			return numA - numB;
 		}
 	}
 
